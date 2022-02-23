@@ -2,8 +2,6 @@
 @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
 
 @import "~bootstrap-icons/font/bootstrap-icons.css";
-body{
-    background-color: black;
-}
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+html, body { height: 100%;}
+body { margin: 0;padding-top: 70px; font-family: Roboto, "Helvetica Neue", sans-serif;background-color: black; }

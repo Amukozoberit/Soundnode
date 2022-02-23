@@ -14,13 +14,17 @@ import {MatDividerModule} from '@angular/material/divider';
 import { MaincontentComponent } from './maincontent/maincontent.component';
 
 import { FormsModule } from '@angular/forms';
+import { SlideshowComponent } from './slideshow/slideshow.component';
+import { CategoriesComponent } from './categories/categories.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SidebarComponent,
-    MaincontentComponent
+    MaincontentComponent,
+    SlideshowComponent,
+    CategoriesComponent
   ],
   imports: [
     BrowserModule,
@@ -29,7 +33,8 @@ import { FormsModule } from '@angular/forms';
     MatSidenavModule,
     MatToolbarModule,
     MatButtonModule,
-    MatDividerModule  
+    MatDividerModule ,
+     
       
   ],
   providers: [],

@@ -8,7 +8,15 @@ mat-sidenav,mat-sidenav-content{
     
 }
 mat-sidenav{
-    background-color: lightcoral;
+    background-color: rgb(15, 15, 15);
+    color:white;
     width:200px;
 
+}
+mat-sidenav-content{
+    background-color: rgb(17, 17, 17);
+
+}
+button{
+    display:none;
 }

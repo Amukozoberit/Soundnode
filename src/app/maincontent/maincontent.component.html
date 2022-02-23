@@ -1,8 +1,10 @@
+
 <mat-sidenav-container class="example-container" >
-    <mat-sidenav mode="side" [(opened)]="opened">Sidenav content</mat-sidenav>
+    <mat-sidenav mode="side" [(opened)]="opened">    <app-sidebar></app-sidebar></mat-sidenav>
   
-    <mat-sidenav-content>  <button (click)="opened=!opened">Toggle Opened</button></mat-sidenav-content>
+    <mat-sidenav-content class="overflow:scroll p-2">  <button (click)="opened=!opened">Toggle Opened</button><app-categories></app-categories>  <app-slideshow></app-slideshow></mat-sidenav-content>
   </mat-sidenav-container>
+ 
 
 
 <!-- modes over,side ,push -->
