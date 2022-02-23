@@ -1,0 +1,17 @@
+<mat-sidenav-container class="example-container" >
+    <mat-sidenav mode="side" [(opened)]="opened">Sidenav content</mat-sidenav>
+  
+    <mat-sidenav-content>  <button (click)="opened=!opened">Toggle Opened</button></mat-sidenav-content>
+  </mat-sidenav-container>
+
+
+<!-- modes over,side ,push -->
+<!-- last method -->
+
+
+
+<!-- <mat-sidenav-container class="example-container" >
+    <mat-sidenav  #sidenav mode="side" [(opened)]="opened">Sidenav content</mat-sidenav>
+  
+    <mat-sidenav-content> <button (click)="sidenav.toggle()">Toggle</button> <button (click)="opened=!opened">Toggle Opened</button></mat-sidenav-content>
+  </mat-sidenav-container> -->
